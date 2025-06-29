@@ -1,0 +1,49 @@
+<!-- ============================================================== -->
+<!-- Simple four boxes Row -->
+<!-- ============================================================== -->
+<div class="row">
+</div>
+<div class="row">
+  <!-- column -->
+  <div class="col-lg-12 col-sm-12">
+<!-- 
+    <mat-card>
+      <mat-card-title>SARB Data Assistant</mat-card-title>
+    
+      <app-llm-search-bar (submitQuestion)="handleQuestion($event)"></app-llm-search-bar>
+    </mat-card> -->
+    
+    <!-- <div *ngIf="explanation" class="mt-4">
+      <mat-card>
+        <mat-card-title>Answer</mat-card-title>
+        <mat-card-content>
+          <p>{{ explanation }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div> -->
+    
+    <app-bank-list></app-bank-list>
+  </div>
+  <!-- column -->
+  <!-- column -->
+  <!-- <div class="col-lg-4 col-sm-12">
+    <app-our-visiter></app-our-visiter>
+  </div> -->
+  <!-- column -->
+</div>
+
+<!-- ============================================================== -->
+<!-- Image Card row-->
+<!-- ============================================================== -->
+<div class="row">
+  <!-- Card column -->
+  <div class="col-lg-3 col-sm-12">
+    <app-profile></app-profile>
+    <app-contacts></app-contacts>
+  </div>
+  <!-- Card column -->
+  <!-- Card column -->
+  <div class="col-lg-9 col-sm-12">
+    <app-activity-timeline></app-activity-timeline>
+  </div>
+</div>
